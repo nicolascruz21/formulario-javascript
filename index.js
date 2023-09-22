@@ -115,7 +115,7 @@ function checkInputs() {
     } else {
         setSuccessFor(passwordtwo)
         //adiciona dados validos ao banco de dados
-        window.location.href = 'http://127.0.0.1:5500/loginWindow/login.html'
+        window.location.href = 'loginWindow/login.html'
         let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
         
 listaUser.push(
