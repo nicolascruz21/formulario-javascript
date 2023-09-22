@@ -12,7 +12,7 @@ form.addEventListener('submit', (e) => {
 
 //instrui o usuario preencher o campo com dados válidos
 username.addEventListener('keyup', () => {
-  if(username.value.length < 3){
+  if(username.value.length < 4){
     setErrorFor(username, 'Preencha esse campo (Nome Inválido)')
   } else {
     setSuccessFor(username)
